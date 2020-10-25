@@ -1,6 +1,12 @@
 import { createGlobalStyle, DefaultTheme } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+
+  :root{
+    --yellow:#f5f749;
+    --red:#fb3c20;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -20,6 +26,13 @@ export const GlobalStyle = createGlobalStyle`
     width:100%;
     height:100%;
     object-fit:contain;
+  }
+
+  h1, h2, .search{
+    &.faded {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
   }
 `;
 
