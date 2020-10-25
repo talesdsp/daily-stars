@@ -1,0 +1,68 @@
+[
+  {
+    "copyright": "Tom AbelRalf KaehlerKIPACSLACAMNH",
+    "date": "2020-10-25",
+    "explanation": "Is our universe haunted?",
+    "hdurl": "https://apod.nasa.gov/apod/image/2010/DarkMatter_KipacAmnh_1200.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Dark Matter in a Simulated Universe",
+    "url": "https://apod.nasa.gov/apod/image/2010/DarkMatter_KipacAmnh_960.jpg"
+  },
+  {
+    "copyright": "Jose Mtanous",
+    "date": "2020-10-24",
+    "explanation": "Globular star cluster 47 Tucanae is a jewel",
+    "hdurl": "https://apod.nasa.gov/apod/image/2010/ngc104v1Mtanous.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Globular Star Cluster 47 Tuc",
+    "url": "https://apod.nasa.gov/apod/image/2010/ngc104v1Mtanous_1024.jpg"
+  },
+  {
+    "date": "2020-10-23",
+    "explanation": "Big, beautiful, barred spiral galaxy NGC 2525",
+    "hdurl": "https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Supernova in NGC 2525",
+    "url": "https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_955x1024.jpg"
+  },
+  {
+    "date": "2020-10-22",
+    "explanation": "On October 20, after a careful approach",
+    "hdurl": "https://apod.nasa.gov/apod/image/2010/E_tag_aftermath.gif",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Tagging Bennu",
+    "url": "https://apod.nasa.gov/apod/image/2010/d_tag-2-frames.jpg"
+  },
+  {
+    "copyright": "Tomáš Slovinský",
+    "date": "2020-10-21",
+    "explanation": "How many famous sky objects can you find in this image?",
+    "hdurl": "https://apod.nasa.gov/apod/image/2010/Quantrids_Slovinsky_2048.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "A Night Sky Vista from Sardinia",
+    "url": "https://apod.nasa.gov/apod/image/2010/Quantrids_Slovinsky_960.jpg"
+  },
+  {
+    "copyright": "Giorgia Hofer",
+    "date": "2020-10-20",
+    "explanation": "Saturn and Jupiter are getting closer.",
+    "hdurl": "https://apod.nasa.gov/apod/image/2010/JupiterSaturnPeaks_Hofer_1200.jpg",
+    "media_type": "image",
+    "service_version": "v1",
+    "title": "Saturn and Jupiter over Italian Peaks",
+    "url": "https://apod.nasa.gov/apod/image/2010/JupiterSaturnPeaks_Hofer_960.jpg"
+  },
+  {
+    "date": "2020-10-19",
+    "explanation": "Are you willing to wait to see the largest",
+    "media_type": "video",
+    "service_version": "v1",
+    "title": "A Flight over Jupiter Near the Great Red Spot",
+    "url": "https://www.youtube.com/embed/xh3EKDghbuU"
+  }
+]

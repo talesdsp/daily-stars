@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> Should render content 1`] = `
+<div>
+  <nav
+    class="layoutstyled__Nav-sc-8nnf55-1 gumLIW fixed"
+  >
+    <img
+      alt="nasa official logo"
+      src="https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-599x599.png"
+    />
+    <a
+      href="/"
+    >
+      HOME
+    </a>
+  </nav>
+  <div
+    class="layoutstyled__Window-sc-8nnf55-0 hAxrTc"
+  >
+    <main>
+      <div
+        class="Welcomestyled__Container-sc-1ri08ox-0 gQoBXX"
+      >
+        <h1>
+          Welcome Traveler
+        </h1>
+        <h2>
+          Take a sit.
+        </h2>
+        <h2>
+          Have Some coffee.
+        </h2>
+        <h2>
+          Your journey starts now.
+        </h2>
+      </div>
+      <form
+        class="SearchBoxstyled__Container-sc-1tw1ahq-0 czcUpe search"
+      >
+        <h3>
+          Search for a image by date
+        </h3>
+        <div>
+          <input
+            aria-label="date 
+ in format: year, month and day without spaces, just numbers"
+            class="commonstyled__Input-sc-6hxmvn-0 kLMYGe"
+            id="search-box__input"
+            placeholder="YYYYMMDD"
+            type="text"
+          />
+          <button
+            aria-label="search input date"
+            class="commonstyled__Button-sc-6hxmvn-1 kkLFji"
+          >
+            <img
+              src="/send.svg"
+            />
+          </button>
+        </div>
+      </form>
+      <article
+        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      >
+        <img
+          alt="Dark Matter in a Simulated Universe"
+          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
+          src="https://apod.nasa.gov/apod/image/2010/DarkMatter_KipacAmnh_1200.jpg"
+        />
+        <h2
+          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        >
+          Dark Matter in a Simulated Universe
+        </h2>
+      </article>
+      <article
+        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      >
+        <img
+          alt="Globular Star Cluster 47 Tuc"
+          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
+          src="https://apod.nasa.gov/apod/image/2010/ngc104v1Mtanous.jpg"
+        />
+        <h2
+          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        >
+          Globular Star Cluster 47 Tuc
+        </h2>
+      </article>
+      <article
+        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      >
+        <img
+          alt="Supernova in NGC 2525"
+          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
+          src="https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg"
+        />
+        <h2
+          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        >
+          Supernova in NGC 2525
+        </h2>
+      </article>
+      <article
+        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      >
+        <img
+          alt="Tagging Bennu"
+          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
+          src="https://apod.nasa.gov/apod/image/2010/E_tag_aftermath.gif"
+        />
+        <h2
+          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        >
+          Tagging Bennu
+        </h2>
+      </article>
+      <article
+        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      >
+        <img
+          alt="A Night Sky Vista from Sardinia"
+          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
+          src="https://apod.nasa.gov/apod/image/2010/Quantrids_Slovinsky_2048.jpg"
+        />
+        <h2
+          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        >
+          A Night Sky Vista from Sardinia
+        </h2>
+      </article>
+      <article
+        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      >
+        <img
+          alt="Saturn and Jupiter over Italian Peaks"
+          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
+          src="https://apod.nasa.gov/apod/image/2010/JupiterSaturnPeaks_Hofer_1200.jpg"
+        />
+        <h2
+          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        >
+          Saturn and Jupiter over Italian Peaks
+        </h2>
+      </article>
+      <article
+        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      >
+        <div
+          class="PostListstyled____VideoSkeleton-sc-1egmyyp-3 kbLUht"
+        />
+        <h2
+          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        >
+          A Flight over Jupiter Near the Great Red Spot
+        </h2>
+      </article>
+      <div
+        class="Newsletterstyled__Newsletter-sc-1h8wulb-0 gztCBC"
+      >
+        <h4>
+          Sign our newsletter for more stories
+        </h4>
+        <div>
+          <input
+            aria-label="email"
+            class="commonstyled__Input-sc-6hxmvn-0 kLMYGe"
+            placeholder="maria@email.com"
+            type="email"
+          />
+          <button
+            aria-label="send email"
+            class="commonstyled__Button-sc-6hxmvn-1 kkLFji"
+          >
+            <img
+              src="/send.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<Home/> Should render spinner 1`] = `
+<div>
+  <nav
+    class="layoutstyled__Nav-sc-8nnf55-1 gumLIW fixed"
+  >
+    <img
+      alt="nasa official logo"
+      src="https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-599x599.png"
+    />
+    <a
+      href="/"
+    >
+      HOME
+    </a>
+  </nav>
+  <div
+    class="layoutstyled__Window-sc-8nnf55-0 hAxrTc"
+  >
+    <main>
+      <div
+        aria-label="loading data"
+        class="jsx-3207870244 loader"
+      />
+    </main>
+  </div>
+</div>
+`;

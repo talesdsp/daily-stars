@@ -1,8 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center"><img src=https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-599x599.png alt="nasa logo" width= "220px"valign="middle"/></p> 
+<p size="10px" align="center" ><em><b>"Curiosity is the essence of our existence" ~ Gene Cernan</b></em></p>
 
-## Getting Started
+## Contents
 
-First, run the development server:
+- [Getting Started](#getting-started)
+- [Preview](#preview)
+
+## 🔰 Getting Started
+
+✅ Run tests:
+
+```bash
+npm run test
+# or
+yarn test
+```
+
+🚀 Run the development server:
 
 ```bash
 npm run dev
@@ -12,19 +26,24 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 💻 Preview
 
-## Learn More
+### 🏠 Home
 
-To learn more about Next.js, take a look at the following resources:
+<p align="center">
+  <img src="https://i.imgur.com/9GZfUai.png" alt="Home page" align="center">
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Posts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### 📷 Image variation
 
-## Deploy on Vercel
+<p align="center">
+  <img src="https://i.imgur.com/54gONYi.png" alt="Image page" align="center">
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### 🎥 Video variation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">
+  <img src="https://i.imgur.com/6y3Pchc.png" alt="Video page" align="center">
+</p>

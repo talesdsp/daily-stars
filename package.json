@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
     "lodash.throttle": "^4.1.1",
@@ -15,10 +16,14 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^11.1.0",
+    "@types/jest": "^26.0.15",
     "@types/node": "^14.14.2",
     "@types/react": "^16.9.53",
     "@types/styled-components": "^5.1.4",
+    "babel-jest": "^26.6.1",
     "babel-plugin-styled-components": "^1.11.1",
+    "jest": "^26.6.1",
     "typescript": "^4.0.3"
   }
 }
