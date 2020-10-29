@@ -1,24 +1,23 @@
 import _throttle from "lodash.throttle";
 import Link from "next/link";
-import { MutableRefObject, ReactNode, useEffect, useRef } from "react";
-import { Nav, Window } from "./layout.styled";
+import { MutableRefObject, useEffect, useRef } from "react";
+import { Nav, Window } from "./Layout.styled";
 import SEO from "./SEO";
 
 interface ILayout {
-  children: ReactNode;
   description?: string;
   siteTitle?: string;
-  home?: boolean;
+  robots?: string;
 }
 
 let lastScroll = 0;
 
-export default function Layout({
+const Layout: React.FC<ILayout> = ({
   children,
   description,
   siteTitle,
-  home,
-}: ILayout) {
+  robots,
+}) => {
   const navRef = useRef<HTMLElement>(null);
 
   const handleScroll = () => {
@@ -26,7 +25,7 @@ export default function Layout({
 
     new Menu(window.pageYOffset, navRef).handleScroll();
   };
-  
+
   useEffect(() => {
     window.addEventListener("scroll", _throttle(handleScroll, 100), false);
 
@@ -35,10 +34,9 @@ export default function Layout({
     };
   }, []);
 
-
   return (
     <>
-      <SEO description={description} siteTitle={siteTitle} />
+      <SEO description={description} siteTitle={siteTitle} robots={robots} />
       <Nav ref={navRef} className="fixed">
         <Link href="/">
           <img
@@ -55,7 +53,9 @@ export default function Layout({
       </Window>
     </>
   );
-}
+};
+
+export default Layout;
 
 class Menu {
   constructor(

@@ -1,10 +1,12 @@
+import { useRouter } from "next/router";
 import { FormEvent, useRef } from "react";
-import { Button, Input } from "./common.styled";
+import { Button, Input } from "../widgets";
 import { Container } from "./SearchBox.styled";
 
-type SearchBoxProps = { requestData: AppState["requestData"] };
+type SearchBoxProps = {};
 
-export default function SearchBox({ requestData }: SearchBoxProps) {
+const SearchBox: React.FC<SearchBoxProps> = ({}) => {
+  const router = useRouter();
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -19,8 +21,7 @@ export default function SearchBox({ requestData }: SearchBoxProps) {
         value.slice(6, 8),
       ].join("-");
 
-      requestData(parsed);
-      inputRef.current.value = "";
+      router.push(`/posts/${encodeURI(parsed)}`);
     }
   };
 
@@ -43,4 +44,6 @@ export default function SearchBox({ requestData }: SearchBoxProps) {
       </div>
     </Container>
   );
-}
+};
+
+export default SearchBox;

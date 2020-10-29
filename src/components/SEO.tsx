@@ -3,12 +3,16 @@ import Head from "next/head";
 interface ISEO {
   siteTitle?: string;
   description?: string;
+  robots?: string;
 }
 
 export default function SEO({
   siteTitle = "The House of Tomorrow",
   description = "Check out your daily dose of awesomes pics of the universe",
+  robots,
 }: ISEO) {
+  const robot = robots && <meta name="robots" content={robots} />;
+
   return (
     <Head>
       <link rel="icon" href="/favicon.ico" />
@@ -28,6 +32,8 @@ export default function SEO({
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
         rel="stylesheet"
       />
+
+      {robot}
     </Head>
   );
 }

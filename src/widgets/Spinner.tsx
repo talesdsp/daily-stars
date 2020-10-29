@@ -1,4 +1,4 @@
-export default function Spinner() {
+const Spinner: React.FC = () => {
   return (
     <>
       <div className="loader" aria-label="loading data" />
@@ -8,7 +8,6 @@ export default function Spinner() {
           .loader:before,
           .loader:after {
             background: #ffffff;
-            -webkit-animation: load1 1s infinite ease-in-out;
             animation: load1 1s infinite ease-in-out;
             width: 1em;
             height: 4em;
@@ -28,11 +27,11 @@ export default function Spinner() {
             content: "";
           }
           .loader:before {
-            left: -1.5em;
+            transform: translateX(-1.5em);
             animation-delay: -0.32s;
           }
           .loader:after {
-            left: 1.5em;
+            transform: translateX(1.5em);
           }
           @keyframes load1 {
             0%,
@@ -50,4 +49,6 @@ export default function Spinner() {
       </style>
     </>
   );
-}
+};
+
+export default Spinner;

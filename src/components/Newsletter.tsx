@@ -1,7 +1,7 @@
-import { Button, Input } from "./common.styled";
+import { Button, Input } from "../widgets";
 import * as S from "./Newsletter.styled";
 
-export default function Newsletter() {
+const Newsletter: React.FC = () => {
   return (
     <S.Newsletter>
       <h4>Sign our newsletter for more stories</h4>
@@ -13,4 +13,6 @@ export default function Newsletter() {
       </div>
     </S.Newsletter>
   );
-}
+};
+
+export default Newsletter;

@@ -1,11 +1,12 @@
+import { NextPage } from "next";
 import { useRouter } from "next/router";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
-export default function Page404() {
+const Page404: NextPage = () => {
   const router = useRouter();
 
   return (
-    <Layout siteTitle="Not Found">
+    <Layout siteTitle="Not Found" robots="noindex">
       <div>
         <p>404 | The following location does not exist</p>
         <br />
@@ -25,4 +26,6 @@ export default function Page404() {
       </style>
     </Layout>
   );
-}
+};
+
+export default Page404;

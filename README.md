@@ -3,8 +3,8 @@
 
 ## Contents
 
-- [Getting Started](#getting-started)
-- [Preview](#preview)
+- [Getting Started](#🔰-getting-started)
+- [Preview](#💻-preview)
 
 ## 🔰 Getting Started
 

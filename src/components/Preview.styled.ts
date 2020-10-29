@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Article = styled.article`
+export const Li = styled.li`
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -14,9 +14,7 @@ const Article = styled.article`
   }
 `;
 
-export default Article;
-
-export const __Img = styled.img`
+export const __Thumbnail = styled.img`
   width: 100%;
   object-fit: cover;
   transition: filter 900ms ease;
@@ -24,12 +22,12 @@ export const __Img = styled.img`
   white-space: nowrap;
   overflow: hidden;
 
-  ${Article}:hover & {
+  ${Li}:hover & {
     filter: brightness(0.6);
   }
 `;
 
-export const __H2 = styled.h2`
+export const __H3 = styled.h3`
   opacity: 0;
   color: #fff;
   position: absolute;
@@ -37,7 +35,7 @@ export const __H2 = styled.h2`
   left: 30px;
   transition: opacity 900ms ease;
 
-  ${Article}:hover & {
+  ${Li}:hover & {
     opacity: 1;
   }
 `;
