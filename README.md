@@ -1,10 +1,10 @@
-<p align="center"><img src=https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-599x599.png alt="nasa logo" width= "220px"valign="middle"/></p> 
+<p align="center"><img src=https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-599x599.png alt="nasa logo" width= "220px"valign="middle"/></p>
 <p size="10px" align="center" ><em><b>"Curiosity is the essence of our existence" ~ Gene Cernan</b></em></p>
 
 ## Contents
 
-- [Getting Started](#🔰-getting-started)
-- [Preview](#💻-preview)
+- [Getting Started](#-getting-started)
+- [Preview](#-preview)
 
 ## 🔰 Getting Started
 
