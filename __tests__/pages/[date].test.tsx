@@ -1,7 +1,7 @@
-import { render } from "@testing-library/react";
-import React from "react";
-import Post from "../../src/pages/posts/[date]";
-import mockSchema from "../fixtures/schema.json";
+import { render } from "@testing-library/react"
+import React from "react"
+import Post from "../../src/pages/posts/[date]"
+import mockSchema from "../fixtures/schema.json"
 
 jest.mock("next/router", () => ({
   useRouter() {
@@ -10,45 +10,30 @@ jest.mock("next/router", () => ({
       pathname: "",
       query: "",
       asPath: "",
-    };
+    }
   },
-}));
+}))
 
-const useRouter = jest.spyOn(require("next/router"), "useRouter");
+const useRouter = jest.spyOn(require("next/router"), "useRouter")
 
-const stateSetter: React.Dispatch<unknown> = jest.fn();
-
-describe("<[pid]/>", () => {
+describe("<[date]/>", () => {
   it("Should render image content", () => {
     useRouter.mockImplementation(() => ({
-      query: { pid: mockSchema[0].date },
-    }));
+      query: { date: mockSchema[0].date },
+    }))
 
-    const { container } = render(
-      <Post data={mockSchema} requestData={stateSetter} />
-    );
+    const { container } = render(<Post post={mockSchema[0]} />)
 
-    expect(container).toMatchSnapshot();
-  });
+    expect(container).toMatchSnapshot()
+  })
 
   it("Should render video content", () => {
     useRouter.mockImplementation(() => ({
-      query: { pid: mockSchema[6].date },
-    }));
+      query: { date: mockSchema[6].date },
+    }))
 
-    const { container } = render(
-      <Post data={mockSchema} requestData={stateSetter} />
-    );
+    const { container } = render(<Post post={mockSchema[0]} />)
 
-    expect(container).toMatchSnapshot();
-  });
-
-  it("Should render spinner", () => {
-    useRouter.mockImplementation(() => ({
-      query: { pid: mockSchema[6].date },
-    }));
-    const { container } = render(<Post data={[]} requestData={stateSetter} />);
-
-    expect(container).toMatchSnapshot();
-  });
-});
+    expect(container).toMatchSnapshot()
+  })
+})

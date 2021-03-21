@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Li = styled.li`
   position: relative;
+  width: 100%;
   width: 100%;
   overflow: hidden;
   height: 300px;
@@ -9,23 +10,26 @@ export const Li = styled.li`
   margin: 40px auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 
+  img {
+    min-width: 100%;
+    transition: filter 900ms ease;
+    text-indent: -100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  &:hover img {
+    filter: brightness(0.6);
+  }
+
+  &:hover h3 {
+    opacity: 1;
+  }
+
   @media (max-width: 768px) {
     width: 90%;
   }
-`;
-
-export const __Thumbnail = styled.img`
-  width: 100%;
-  object-fit: cover;
-  transition: filter 900ms ease;
-  text-indent: -100%;
-  white-space: nowrap;
-  overflow: hidden;
-
-  ${Li}:hover & {
-    filter: brightness(0.6);
-  }
-`;
+`
 
 export const __H3 = styled.h3`
   opacity: 0;
@@ -34,11 +38,7 @@ export const __H3 = styled.h3`
   bottom: 30px;
   left: 30px;
   transition: opacity 900ms ease;
-
-  ${Li}:hover & {
-    opacity: 1;
-  }
-`;
+`
 
 export const __VideoSkeleton = styled.div`
   background-color: #000;
@@ -80,4 +80,4 @@ export const __VideoSkeleton = styled.div`
       background-color: #111;
     }
   }
-`;
+`

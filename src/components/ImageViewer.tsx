@@ -1,13 +1,13 @@
-import { Dispatch, SetStateAction } from "react";
-import { __Buttons, __Img, __Shadow, __Zoom } from "./ImageViewer.styled";
+import { Dispatch, SetStateAction } from "react"
+import { __Buttons, __Img, __Shadow, __Zoom } from "./ImageViewer.styled"
 
 type ImageViewerProps = {
-  post: Post;
-  isOpen: boolean;
-  imgSize: number;
-  closeViewer: () => void;
-  setImgSize: Dispatch<SetStateAction<number>>;
-};
+  post: Post
+  isOpen: boolean
+  imgSize: number
+  closeViewer: () => void
+  setImgSize: Dispatch<SetStateAction<number>>
+}
 
 const ImageViewer: React.FC<ImageViewerProps> = ({
   post,
@@ -16,28 +16,35 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
   imgSize,
   setImgSize,
 }) => {
-  const { hdurl, title } = post;
+  const { hdurl, title } = post
 
   function incrementSize() {
-    setImgSize((prev) => (prev < 2 ? prev + 1 : prev));
+    setImgSize((prev) => (prev < 2 ? prev + 1 : prev))
   }
 
   function decrementSize() {
     setImgSize((prev) => {
       if (prev > 0) {
-        return prev - 1;
+        return prev - 1
       }
-      closeViewer();
-      return prev;
-    });
+      closeViewer()
+      return prev
+    })
   }
 
-  if (!isOpen) return null;
+  if (!isOpen) return null
 
   return (
     <>
       <__Shadow>
-        <__Img src={hdurl} alt={title} size={imgSize} onClick={closeViewer} />
+        <__Img
+          src={hdurl}
+          alt={title}
+          size={imgSize}
+          onClick={closeViewer}
+          layout="fill"
+          quality={100}
+        />
       </__Shadow>
 
       <__Buttons>
@@ -45,7 +52,7 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
         <__Zoom onClick={incrementSize} children="+" />
       </__Buttons>
     </>
-  );
-};
+  )
+}
 
-export default ImageViewer;
+export default ImageViewer

@@ -1,12 +1,15 @@
-import styled from "styled-components";
+import Image from "next/image"
+import styled from "styled-components"
 
 interface ArticleImgProps {
-  open?: boolean;
+  open?: boolean
 }
 
 const Container = styled.article<{ video?: boolean }>`
   height: fit-content;
-  padding: ${(props) => (props.video ? "40px 0" : "150px 0")};
+  padding-top: ${(props) => (props.video ? "40px" : "150px")};
+  padding-bottom: ${(props) => (props.video ? "40px" : "150px")};
+
   hr {
     width: 60%;
     margin: auto;
@@ -17,32 +20,33 @@ const Container = styled.article<{ video?: boolean }>`
 
   @media (max-width: 768px) {
     width: 90%;
+    padding: 0;
     margin: auto;
   }
-`;
-export default Container;
+`
+type Images = ArticleImgProps &
+  typeof Image & {
+    size?: number
+    mobileHeroSize?: number
+  }
 
-type Images = ArticleImgProps & {
-  size?: number;
-  mobileHeroSize?: number;
-};
-
-export const __Img = styled.img<Images>`
+export const __Img = styled(Image)<Images>`
   top: 0;
+  pointer-events: none;
   left: 0;
   width: 100%;
-  height: 900px;
   z-index: -1;
-  object-fit: cover;
   cursor: pointer;
   margin: auto;
-  position: absolute;
+  position: fixed !important;
   transition: all 900ms ease;
 
   @media (max-width: 768px) {
     height: ${(props) => props.mobileHeroSize}px;
   }
-`;
+`
+
+export default Container
 
 export const __Info = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -50,20 +54,20 @@ export const __Info = styled.div`
   color: #fff;
   padding: 30px;
   z-index: 10;
-`;
+`
 
 export const __Date = styled.span`
   margin-top: 40px;
   font-size: 14px;
   color: #eee;
-`;
+`
 
 export const __H1 = styled.h1`
   margin: 5px 0 20px;
-`;
+`
 
 export const __P = styled.p`
   font-family: sans-serif;
   line-height: 1.4;
   margin: 30px 0;
-`;
+`

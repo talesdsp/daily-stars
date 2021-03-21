@@ -1,4 +1,5 @@
-import styled, { css } from "styled-components";
+import Image from "next/image"
+import styled, { css } from "styled-components"
 
 export const __Buttons = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
@@ -11,7 +12,7 @@ export const __Buttons = styled.div`
   justify-content: space-between;
   right: 40px;
   z-index: 15;
-`;
+`
 
 export const __Zoom = styled.button`
   cursor: pointer;
@@ -23,7 +24,7 @@ export const __Zoom = styled.button`
   background-color: #eee;
   border-radius: 50%;
   border: 1px solid #ddd;
-`;
+`
 
 export const __Shadow = styled.div`
   display: block;
@@ -36,11 +37,11 @@ export const __Shadow = styled.div`
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 10;
-`;
+`
 
-type Images = { size: number };
+type Images = typeof Image & { size: number }
 
-export const __Img = styled.img<Images>`
+export const __Img = styled(Image)<Images>`
   top: 0;
   left: 0;
   right: 0;
@@ -54,7 +55,6 @@ export const __Img = styled.img<Images>`
 
   ${({ size }) =>
     css`
-      height: ${size === 0 ? "100%" : size === 1 ? "150%" : "200%"};
-      width: ${size === 0 ? "100%" : size === 1 ? "150%" : "200%"};
+      transform: scale(${size === 0 ? 1 : size === 1 ? 1.5 : 2});
     `}
-`;
+`

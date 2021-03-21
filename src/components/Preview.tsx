@@ -1,17 +1,28 @@
-import Link from "next/link";
-import { Li, __H3, __Thumbnail, __VideoSkeleton } from "./Preview.styled";
+import Image from "next/image"
+import Link from "next/link"
+import { Li, __H3, __VideoSkeleton } from "./Preview.styled"
 
 type PreviewProps = {
-  post: Post;
-  hasTypeImage: boolean;
-};
+  post: Post
+  hasTypeImage: boolean
+}
 
 const Preview: React.FC<PreviewProps> = ({ post, hasTypeImage }) => {
-  const { title, hdurl, url, date } = post;
+  const { title, hdurl, url, date } = post
 
   function renderThumbnailOrSkeleton() {
-    if (hasTypeImage) return <__Thumbnail src={hdurl || url} alt={title} />;
-    return <__VideoSkeleton />;
+    if (hasTypeImage)
+      return (
+        <Image
+          src={hdurl || url}
+          alt={title}
+          width="900"
+          height="300"
+          objectFit="cover"
+          quality={40}
+        />
+      )
+    return <__VideoSkeleton />
   }
 
   return (
@@ -21,7 +32,7 @@ const Preview: React.FC<PreviewProps> = ({ post, hasTypeImage }) => {
         <__H3>{title}</__H3>
       </Li>
     </Link>
-  );
-};
+  )
+}
 
-export default Preview;
+export default Preview

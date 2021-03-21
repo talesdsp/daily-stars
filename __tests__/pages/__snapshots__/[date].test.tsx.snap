@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<[date]/> Should render image content 1`] = `
+<div>
+  <nav
+    class="Layoutstyled__Nav-sc-1rs8hgn-1 ekLLBZ fixed"
+  >
+    <div
+      style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 70px; height: 70px;"
+    >
+      <img
+        alt="nasa official logo"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+      />
+    </div>
+    <a
+      href="/"
+    >
+      HOME
+    </a>
+  </nav>
+  <div
+    class="Layoutstyled__Window-sc-1rs8hgn-0 liZLIt"
+  >
+    <main>
+      <article
+        class="Articlestyled__Container-sc-6s050h-0 lbYDY"
+      >
+        <div
+          style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+        >
+          <img
+            alt="Dark Matter in a Simulated Universe"
+            class="Articlestyled____Img-sc-6s050h-1 fhertA"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+        </div>
+        <div
+          class="Articlestyled____Info-sc-6s050h-2 cTDnfL"
+        >
+          <span
+            class="Articlestyled____Date-sc-6s050h-3 iJfEdZ"
+          >
+            2020-10-25 - Tom AbelRalf KaehlerKIPACSLACAMNH
+          </span>
+          <h1
+            class="Articlestyled____H1-sc-6s050h-4 jxsqYD"
+          >
+            Dark Matter in a Simulated Universe
+          </h1>
+          <hr />
+          <p
+            class="Articlestyled____P-sc-6s050h-5 fTDfxl"
+          >
+            Is our universe haunted?
+          </p>
+          <button
+            class="Button-hd9ftx-0 kixTgi"
+          >
+            See in HD
+          </button>
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<[date]/> Should render video content 1`] = `
+<div>
+  <nav
+    class="Layoutstyled__Nav-sc-1rs8hgn-1 ekLLBZ fixed"
+  >
+    <div
+      style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 70px; height: 70px;"
+    >
+      <img
+        alt="nasa official logo"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+      />
+    </div>
+    <a
+      href="/"
+    >
+      HOME
+    </a>
+  </nav>
+  <div
+    class="Layoutstyled__Window-sc-1rs8hgn-0 liZLIt"
+  >
+    <main>
+      <article
+        class="Articlestyled__Container-sc-6s050h-0 lbYDY"
+      >
+        <div
+          style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+        >
+          <img
+            alt="Dark Matter in a Simulated Universe"
+            class="Articlestyled____Img-sc-6s050h-1 fhertA"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+        </div>
+        <div
+          class="Articlestyled____Info-sc-6s050h-2 cTDnfL"
+        >
+          <span
+            class="Articlestyled____Date-sc-6s050h-3 iJfEdZ"
+          >
+            2020-10-25 - Tom AbelRalf KaehlerKIPACSLACAMNH
+          </span>
+          <h1
+            class="Articlestyled____H1-sc-6s050h-4 jxsqYD"
+          >
+            Dark Matter in a Simulated Universe
+          </h1>
+          <hr />
+          <p
+            class="Articlestyled____P-sc-6s050h-5 fTDfxl"
+          >
+            Is our universe haunted?
+          </p>
+          <button
+            class="Button-hd9ftx-0 kixTgi"
+          >
+            See in HD
+          </button>
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+`;

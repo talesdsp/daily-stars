@@ -1,37 +1,39 @@
-import { Button, Iframe } from "../widgets";
-import Container, { __Date, __H1, __Img, __Info, __P } from "./Article.styled";
-import Preview from "./Preview";
+import { Button, Iframe } from "../widgets"
+import Container, { __Date, __H1, __Img, __Info, __P } from "./Article.styled"
+import Preview from "./Preview"
 
 type ArticleProps = {
-  post?: Post;
-  preview?: boolean;
-  heroSize?: number;
-  openViewer?: () => void;
-};
+  post?: Post
+  preview?: boolean
+  heroSize?: number
+  openViewer?: () => void
+}
 
 const Article: React.FC<ArticleProps> = ({
   post,
   preview,
-  heroSize,
   openViewer,
+  heroSize,
 }) => {
-  const { date, explanation, media_type, title, copyright, hdurl, url } = post;
+  const { date, explanation, media_type, title, copyright, hdurl, url } = post
 
-  const hasTypeImage = media_type === "image";
+  const hasTypeImage = media_type === "image"
 
   function renderButtonOrNull() {
     if (hasTypeImage)
-      return <Button children="See in HD" onClick={openViewer} />;
+      return <Button children="See in HD" onClick={openViewer} />
   }
 
   function renderImageOrIframe() {
     if (hasTypeImage)
-      return <__Img src={hdurl || url} alt={title} mobileHeroSize={heroSize} />;
+      return (
+        <__Img src={hdurl || url} alt={title} layout="fill" objectFit="cover" />
+      )
 
-    return <Iframe url={url} />;
+    return <Iframe url={url} />
   }
 
-  if (preview) return <Preview hasTypeImage={hasTypeImage} post={post} />;
+  if (preview) return <Preview hasTypeImage={hasTypeImage} post={post} />
 
   return (
     <Container video={!hasTypeImage}>
@@ -44,7 +46,7 @@ const Article: React.FC<ArticleProps> = ({
         {renderButtonOrNull()}
       </__Info>
     </Container>
-  );
-};
+  )
+}
 
-export default Article;
+export default Article

@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Window = styled.div`
   margin: auto;
-  padding-top: 90px;
+  padding-top: 74px;
   width: 100%;
   max-width: 900px;
 
@@ -11,7 +11,7 @@ export const Window = styled.div`
     flex-direction: column;
     margin: auto;
   }
-`;
+`
 
 export const Nav = styled.nav`
   position: fixed;
@@ -51,4 +51,4 @@ export const Nav = styled.nav`
       background-color: #445;
     }
   }
-`;
+`

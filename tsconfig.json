@@ -21,7 +21,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "src/widgets/List.tsz"
+    "**/*.tsx",
   ],
   "exclude": [
     "node_modules"

@@ -3,12 +3,18 @@
 exports[`<Home/> Should render content 1`] = `
 <div>
   <nav
-    class="layoutstyled__Nav-sc-8nnf55-1 gumLIW fixed"
+    class="Layoutstyled__Nav-sc-1rs8hgn-1 ekLLBZ fixed"
   >
-    <img
-      alt="nasa official logo"
-      src="https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-599x599.png"
-    />
+    <div
+      style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 70px; height: 70px;"
+    >
+      <img
+        alt="nasa official logo"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+      />
+    </div>
     <a
       href="/"
     >
@@ -16,7 +22,7 @@ exports[`<Home/> Should render content 1`] = `
     </a>
   </nav>
   <div
-    class="layoutstyled__Window-sc-8nnf55-0 hAxrTc"
+    class="Layoutstyled__Window-sc-1rs8hgn-0 liZLIt"
   >
     <main>
       <div
@@ -45,14 +51,14 @@ exports[`<Home/> Should render content 1`] = `
           <input
             aria-label="date 
  in format: year, month and day without spaces, just numbers"
-            class="commonstyled__Input-sc-6hxmvn-0 kLMYGe"
+            class="Input-sc-1twg6e5-0 lhvOuQ"
             id="search-box__input"
             placeholder="YYYYMMDD"
             type="text"
           />
           <button
             aria-label="search input date"
-            class="commonstyled__Button-sc-6hxmvn-1 kkLFji"
+            class="Button-hd9ftx-0 kixTgi"
           >
             <img
               src="/send.svg"
@@ -60,102 +66,202 @@ exports[`<Home/> Should render content 1`] = `
           </button>
         </div>
       </form>
-      <article
-        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
+      <ul
+        class="jsx-3904152166 "
       >
-        <img
-          alt="Dark Matter in a Simulated Universe"
-          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
-          src="https://apod.nasa.gov/apod/image/2010/DarkMatter_KipacAmnh_1200.jpg"
-        />
-        <h2
-          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+        <li
+          class="Previewstyled__Li-rry107-0 bXIiZC"
         >
-          Dark Matter in a Simulated Universe
-        </h2>
-      </article>
-      <article
-        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
-      >
-        <img
-          alt="Globular Star Cluster 47 Tuc"
-          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
-          src="https://apod.nasa.gov/apod/image/2010/ngc104v1Mtanous.jpg"
-        />
-        <h2
-          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Dark Matter in a Simulated Universe"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+          </div>
+          <h3
+            class="Previewstyled____H3-rry107-1 hZxGuM"
+          >
+            Dark Matter in a Simulated Universe
+          </h3>
+        </li>
+        <li
+          class="Previewstyled__Li-rry107-0 bXIiZC"
         >
-          Globular Star Cluster 47 Tuc
-        </h2>
-      </article>
-      <article
-        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
-      >
-        <img
-          alt="Supernova in NGC 2525"
-          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
-          src="https://apod.nasa.gov/apod/image/2010/STScI_NGC2525_1865x2000.jpg"
-        />
-        <h2
-          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Globular Star Cluster 47 Tuc"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+          </div>
+          <h3
+            class="Previewstyled____H3-rry107-1 hZxGuM"
+          >
+            Globular Star Cluster 47 Tuc
+          </h3>
+        </li>
+        <li
+          class="Previewstyled__Li-rry107-0 bXIiZC"
         >
-          Supernova in NGC 2525
-        </h2>
-      </article>
-      <article
-        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
-      >
-        <img
-          alt="Tagging Bennu"
-          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
-          src="https://apod.nasa.gov/apod/image/2010/E_tag_aftermath.gif"
-        />
-        <h2
-          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Supernova in NGC 2525"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+          </div>
+          <h3
+            class="Previewstyled____H3-rry107-1 hZxGuM"
+          >
+            Supernova in NGC 2525
+          </h3>
+        </li>
+        <li
+          class="Previewstyled__Li-rry107-0 bXIiZC"
         >
-          Tagging Bennu
-        </h2>
-      </article>
-      <article
-        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
-      >
-        <img
-          alt="A Night Sky Vista from Sardinia"
-          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
-          src="https://apod.nasa.gov/apod/image/2010/Quantrids_Slovinsky_2048.jpg"
-        />
-        <h2
-          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Tagging Bennu"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+          </div>
+          <h3
+            class="Previewstyled____H3-rry107-1 hZxGuM"
+          >
+            Tagging Bennu
+          </h3>
+        </li>
+        <li
+          class="Previewstyled__Li-rry107-0 bXIiZC"
         >
-          A Night Sky Vista from Sardinia
-        </h2>
-      </article>
-      <article
-        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
-      >
-        <img
-          alt="Saturn and Jupiter over Italian Peaks"
-          class="PostListstyled____Img-sc-1egmyyp-1 ezojEI"
-          src="https://apod.nasa.gov/apod/image/2010/JupiterSaturnPeaks_Hofer_1200.jpg"
-        />
-        <h2
-          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="A Night Sky Vista from Sardinia"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+          </div>
+          <h3
+            class="Previewstyled____H3-rry107-1 hZxGuM"
+          >
+            A Night Sky Vista from Sardinia
+          </h3>
+        </li>
+        <li
+          class="Previewstyled__Li-rry107-0 bXIiZC"
         >
-          Saturn and Jupiter over Italian Peaks
-        </h2>
-      </article>
-      <article
-        class="PostListstyled__Article-sc-1egmyyp-0 lgDFQT"
-      >
-        <div
-          class="PostListstyled____VideoSkeleton-sc-1egmyyp-3 kbLUht"
-        />
-        <h2
-          class="PostListstyled____H2-sc-1egmyyp-2 kOWiOU"
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Saturn and Jupiter over Italian Peaks"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+          </div>
+          <h3
+            class="Previewstyled____H3-rry107-1 hZxGuM"
+          >
+            Saturn and Jupiter over Italian Peaks
+          </h3>
+        </li>
+        <li
+          class="Previewstyled__Li-rry107-0 bXIiZC"
         >
-          A Flight over Jupiter Near the Great Red Spot
-        </h2>
-      </article>
+          <div
+            class="Previewstyled____VideoSkeleton-rry107-2 kdSQrE"
+          />
+          <h3
+            class="Previewstyled____H3-rry107-1 hZxGuM"
+          >
+            A Flight over Jupiter Near the Great Red Spot
+          </h3>
+        </li>
+      </ul>
       <div
         class="Newsletterstyled__Newsletter-sc-1h8wulb-0 gztCBC"
       >
@@ -165,13 +271,13 @@ exports[`<Home/> Should render content 1`] = `
         <div>
           <input
             aria-label="email"
-            class="commonstyled__Input-sc-6hxmvn-0 kLMYGe"
+            class="Input-sc-1twg6e5-0 lhvOuQ"
             placeholder="maria@email.com"
             type="email"
           />
           <button
             aria-label="send email"
-            class="commonstyled__Button-sc-6hxmvn-1 kkLFji"
+            class="Button-hd9ftx-0 kixTgi"
           >
             <img
               src="/send.svg"
@@ -179,34 +285,6 @@ exports[`<Home/> Should render content 1`] = `
           </button>
         </div>
       </div>
-    </main>
-  </div>
-</div>
-`;
-
-exports[`<Home/> Should render spinner 1`] = `
-<div>
-  <nav
-    class="layoutstyled__Nav-sc-8nnf55-1 gumLIW fixed"
-  >
-    <img
-      alt="nasa official logo"
-      src="https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-599x599.png"
-    />
-    <a
-      href="/"
-    >
-      HOME
-    </a>
-  </nav>
-  <div
-    class="layoutstyled__Window-sc-8nnf55-0 hAxrTc"
-  >
-    <main>
-      <div
-        aria-label="loading data"
-        class="jsx-3207870244 loader"
-      />
     </main>
   </div>
 </div>
