@@ -1,9 +1,9 @@
-import Head from "next/head";
+import Head from "next/head"
 
 interface ISEO {
-  siteTitle?: string;
-  description?: string;
-  robots?: string;
+  siteTitle?: string
+  description?: string
+  robots?: string
 }
 
 export default function SEO({
@@ -11,7 +11,7 @@ export default function SEO({
   description = "Check out your daily dose of awesomes pics of the universe",
   robots,
 }: ISEO) {
-  const robot = robots && <meta name="robots" content={robots} />;
+  const robot = robots ? <meta name="robots" content={robots} /> : null
 
   return (
     <Head>
@@ -24,7 +24,7 @@ export default function SEO({
       <meta
         property="og:image"
         content={`https://og-image.now.sh/${encodeURI(
-          `NASA - ${siteTitle}`
+          `NASA - ${siteTitle}`,
         )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
       />
       <meta name="twitter:card" content="summary_large_image" />
@@ -35,5 +35,5 @@ export default function SEO({
 
       {robot}
     </Head>
-  );
+  )
 }

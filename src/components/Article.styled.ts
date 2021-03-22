@@ -27,7 +27,7 @@ const Container = styled.article<{ video?: boolean }>`
 type Images = ArticleImgProps &
   typeof Image & {
     size?: number
-    mobileHeroSize?: number
+    layout: string
   }
 
 export const __Img = styled(Image)<Images>`
@@ -40,10 +40,6 @@ export const __Img = styled(Image)<Images>`
   margin: auto;
   position: fixed !important;
   transition: all 900ms ease;
-
-  @media (max-width: 768px) {
-    height: ${(props) => props.mobileHeroSize}px;
-  }
 `
 
 export default Container

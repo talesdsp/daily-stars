@@ -39,7 +39,7 @@ export const __Shadow = styled.div`
   z-index: 10;
 `
 
-type Images = typeof Image & { size: number }
+type Images = typeof Image & { size: number; layout: string }
 
 export const __Img = styled(Image)<Images>`
   top: 0;
