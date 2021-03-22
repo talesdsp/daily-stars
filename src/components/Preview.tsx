@@ -12,7 +12,13 @@ const Preview: React.FC<PreviewProps> = ({ post, hasTypeImage }) => {
   function renderThumbnailOrSkeleton() {
     if (hasTypeImage)
       return (
-        <__Img src={hdurl || url} alt={title} layout="fill" objectFit="cover" />
+        <__Img
+          src={hdurl || url}
+          alt={title}
+          layout="fill"
+          objectFit="cover"
+          quality={55}
+        />
       )
     return <__VideoSkeleton />
   }
