@@ -1,3 +1,4 @@
+import Image from "next/image"
 import styled from "styled-components"
 
 export const Li = styled.li`
@@ -29,6 +30,11 @@ export const Li = styled.li`
   @media (max-width: 768px) {
     width: 90%;
   }
+`
+
+export const __Img = styled(Image)<typeof Image & { layout: string }>`
+  position: absolute;
+  height: 100% !important;
 `
 
 export const __H3 = styled.h3`

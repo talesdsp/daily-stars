@@ -1,6 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
-import { Li, __H3, __VideoSkeleton } from "./Preview.styled"
+import { Li, __H3, __Img, __VideoSkeleton } from "./Preview.styled"
 
 type PreviewProps = {
   post: Post
@@ -13,14 +12,7 @@ const Preview: React.FC<PreviewProps> = ({ post, hasTypeImage }) => {
   function renderThumbnailOrSkeleton() {
     if (hasTypeImage)
       return (
-        <Image
-          src={hdurl || url}
-          alt={title}
-          width="900"
-          height="300"
-          objectFit="cover"
-          quality={40}
-        />
+        <__Img src={hdurl || url} alt={title} layout="fill" objectFit="cover" />
       )
     return <__VideoSkeleton />
   }
